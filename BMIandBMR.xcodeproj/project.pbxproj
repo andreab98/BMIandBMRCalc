@@ -13,6 +13,9 @@
 		1A246EDD1D2C3A42008C68DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A246EDB1D2C3A42008C68DA /* Main.storyboard */; };
 		1A246EDF1D2C3A42008C68DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A246EDE1D2C3A42008C68DA /* Assets.xcassets */; };
 		1A246EE21D2C3A42008C68DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A246EE01D2C3A42008C68DA /* LaunchScreen.storyboard */; };
+		1A246EEB1D2C3A6D008C68DA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A246EEA1D2C3A6D008C68DA /* Person.m */; };
+		1A246EED1D2C3DD8008C68DA /* thumbsUp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A246EEC1D2C3DD7008C68DA /* thumbsUp.jpg */; };
+		1A246EEF1D2C3E16008C68DA /* thumbsDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A246EEE1D2C3E16008C68DA /* thumbsDown.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,10 @@
 		1A246EDE1D2C3A42008C68DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A246EE11D2C3A42008C68DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A246EE31D2C3A42008C68DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A246EE91D2C3A6D008C68DA /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		1A246EEA1D2C3A6D008C68DA /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		1A246EEC1D2C3DD7008C68DA /* thumbsUp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumbsUp.jpg; path = ../../../Desktop/thumbsUp.jpg; sourceTree = "<group>"; };
+		1A246EEE1D2C3E16008C68DA /* thumbsDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thumbsDown.png; path = ../../../Desktop/thumbsDown.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +68,11 @@
 				1A246ED51D2C3A42008C68DA /* AppDelegate.h */,
 				1A246ED61D2C3A42008C68DA /* AppDelegate.m */,
 				1A246ED81D2C3A42008C68DA /* ViewController.h */,
+				1A246EE91D2C3A6D008C68DA /* Person.h */,
+				1A246EEA1D2C3A6D008C68DA /* Person.m */,
 				1A246ED91D2C3A42008C68DA /* ViewController.m */,
+				1A246EEE1D2C3E16008C68DA /* thumbsDown.png */,
+				1A246EEC1D2C3DD7008C68DA /* thumbsUp.jpg */,
 				1A246EDB1D2C3A42008C68DA /* Main.storyboard */,
 				1A246EDE1D2C3A42008C68DA /* Assets.xcassets */,
 				1A246EE01D2C3A42008C68DA /* LaunchScreen.storyboard */,
@@ -137,8 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A246EE21D2C3A42008C68DA /* LaunchScreen.storyboard in Resources */,
+				1A246EEF1D2C3E16008C68DA /* thumbsDown.png in Resources */,
 				1A246EDF1D2C3A42008C68DA /* Assets.xcassets in Resources */,
 				1A246EDD1D2C3A42008C68DA /* Main.storyboard in Resources */,
+				1A246EED1D2C3DD8008C68DA /* thumbsUp.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +164,7 @@
 			files = (
 				1A246EDA1D2C3A42008C68DA /* ViewController.m in Sources */,
 				1A246ED71D2C3A42008C68DA /* AppDelegate.m in Sources */,
+				1A246EEB1D2C3A6D008C68DA /* Person.m in Sources */,
 				1A246ED41D2C3A42008C68DA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
